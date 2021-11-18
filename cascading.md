@@ -11,7 +11,7 @@
 + 在网页中，cascade指的是，规则可以**覆盖**，高优先级的规则可以覆盖低优先级。就像 cascade瀑布（勉强叫层叠瀑布），高处的水可以覆盖低处的水。
 + css中最复杂的也是冲突、覆盖。在css1规范中有这句话：`Conflicting rules are intrinsic to the CSS mechanism.` 冲突的规则是内置于css机制的。
 + css很重要的一部分就是：解决冲突（通过建立优先级，css中叫specificity）。这部分也是css中最麻烦的。
-  ![](./imgs/01-css-standard.png)
++ ![](./imgs/01-css-standard.png)
 
 ### user css vs author css
 + user很少指定css，但所有browser都支持user手动指定css。
