@@ -2,7 +2,7 @@
 ## css是什么
 + css Cascading Style Sheets 层叠样式表，用于给html网页添加样式。
 + "cascade"，到底是什么意思？它的本意是多层级的瀑布，水流经多个坡。一说到瀑布大家想到的一般是90度下落，那是悬崖瀑布。实际瀑布分很多种。
-+ ![](./imgs/00-cascade-waterfall.jpg)
+<img src="./imgs/00-cascade-waterfall.jpg" alt="cascade waterfall" height="300" />
 
 > 各种瀑布类型： https://en.wikipedia.org/wiki/List_of_waterfalls_by_type#Cascade
 > cascade瀑布：https://www.britannica.com/science/cascade-waterfall
@@ -30,17 +30,22 @@
 + 再次体现，cascade级联覆盖的特征，用户可以覆盖网页样式，网页又可以覆盖用户样式。
 
 ## css覆盖简单体验
-+ [override-familiar](./override-familiar.html)
-+ <details>
-    <summary>体验1 解决方法</summary>
-    添加class
-    inline-style
-    再添加一个a{col}
-
++ [lab-override](./lab-override.html)
+<details>
+    <summary>test1 解决方法</summary>
+    <pre>
+    添加class，如.a0{color:blue;}
+    inline-style style="color:blue"
+    添加一个 a{color:blue !important;}
+    添加一个id，然后用id selector #a0{border-radius: 0;} 
+    </pre>
 </details>
 <details>
-    <summary>体验2 解决方法</summary>
-    div.container1{border-radius:0}
-
+    <summary>test2 解决方法</summary>
+    <pre>
+    div.container0{border-radius:0}
+    inline-style style="border-radius:0"
+    .container0{border-radius: 0 !important}
+    </pre>
 </details>
 

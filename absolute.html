@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>absolute</title>
+  <style>
+    .row{
+      height:200px;
+      border-bottom: 1px solid gray;
+      /*position: relative;*/
+    }
+    .create-at{
+      color:#aaa;
+      font-size: 14px;
+      position: absolute;
+      right:10px;
+      bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+<div>让create at显示在row的右下方</div>  
+<div class="row"> todo 01
+  <div class="create-at">create at 2021-11-18 13:38</div>
+</div>
+<div class="row">todo 02</div>
+<div class="row">todo 03</div>
+<div class="row">todo 04</div>
+</body>
+</html>
