@@ -1,4 +1,9 @@
 # CSS入门分享
++ 分3部分
++ css基础语法规则
++ css cascading层级覆盖
++ css layout（主要讲flex layout）
+
 
 ## css基础语法规则
 + ![](./imgs/03-selectors.png)

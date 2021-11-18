@@ -2,10 +2,11 @@
 ## css是什么
 + css Cascading Style Sheets 层叠样式表，用于给html网页添加样式。
 + "cascade"，到底是什么意思？它的本意是多层级的瀑布，水流经多个坡。一说到瀑布大家想到的一般是90度下落，那是悬崖瀑布。实际瀑布分很多种。
++ 
 <img src="./imgs/00-cascade-waterfall.jpg" alt="cascade waterfall" height="300" />
 
-> 各种瀑布类型： https://en.wikipedia.org/wiki/List_of_waterfalls_by_type#Cascade
-> cascade瀑布：https://www.britannica.com/science/cascade-waterfall
+> + 各种瀑布类型： https://en.wikipedia.org/wiki/List_of_waterfalls_by_type#Cascade
+> + cascade瀑布：https://www.britannica.com/science/cascade-waterfall
 
 + 在网页中，cascade指的是，规则可以**覆盖**，高优先级的规则可以覆盖低优先级。就像 cascade瀑布（勉强叫层叠瀑布），高处的水可以覆盖低处的水。
 + css中最复杂的也是冲突、覆盖。在css1规范中有这句话：`Conflicting rules are intrinsic to the CSS mechanism.` 冲突的规则是内置于css机制的。
