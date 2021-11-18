@@ -10,24 +10,29 @@
             font-size: 18px;
         }
     </style>
+
+    <style>
+        .box1 p{background:white}
+        .box1 p:nth-child(even){background:gray}
+    </style>
 </head>
 <body>
 <div class="box0">
     <pre>体验1：根据描述，将前两个div着色，而不影响其他div</pre>
     <div class="div0">make me red</div>
     <div class="div1">make me blue</div>
-    <div class="div2">make me black</div>
-    <div class="div3">make me black</div>
+    <div class="div2">make me green</div>
+    <div class="div3">make me green</div>
 </div>
 
 <div class="box1">
     <pre>体验2：根据描述，修改div的背景，使背景灰白相间</pre>
-    <div class="div0">make me background gray</div>
-    <div class="div1">make me background white</div>
-    <div class="div2">make me background gray</div>
-    <div class="div3">make me background white</div>
-    <div class="div4">make me background gray</div>
-    <div class="div5">make me background white</div>
+    <p class="p0">make me background gray</p>
+    <p class="p1">make me background white</p>
+    <p class="p2">make me background gray</p>
+    <p class="p3">make me background white</p>
+    <p class="p4">make me background gray</p>
+    <p class="p5">make me background white</p>
 </div>
 </body>
 </html>
