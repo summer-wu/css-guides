@@ -17,7 +17,7 @@ style-rule ::=
 + 记不住？只需要记住csv，comma separated value。这里是comma separated selectors
 + [./selector-familiar.html](./selector-familiar.html)
 + 体验1 使用多种方式
-<pre style="color:white">
+<div style="color:white">
 
 .box0 .div0{color:red}
 .box0 .div1{color:blue}
@@ -31,7 +31,7 @@ style-rule ::=
 .box0 div:nth-child(3){color:blue}
 .box0 div{color:green}
 
-</pre>
+</div>
 + 体验2 多种方式
 <pre style="color:white">
 .p0,.p2,.p4{background:gray}
