@@ -89,14 +89,15 @@ style-rule ::=
 + css variables，chrome已经支持
 + less/sass，预处理，支持嵌套和变量
 + module css，需要在webpack中使用，每个class都自动创建uniq prefix
-+ styled-component，react生态中最流行的css-in-js解决方案
-+ 
++ styled-component，react生态中最流行的css-in-js解决方案，示例如下：
+ 
 ```
 const StyledDiv = styled.div`
   color:red;
 `
 return <StyledDiv>Hello</StyledDiv>;
 ```
+
 
 ## 扩展阅读
 + MDN `https://developer.mozilla.org/en-US/docs/Web/CSS`
